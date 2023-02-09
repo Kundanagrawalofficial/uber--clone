@@ -29,6 +29,9 @@ const Search = () => {
         <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png"/>
         Saved places
       </SavePlaces>
+      <ConfirmButtonContainer>
+        Confirm Location
+      </ConfirmButtonContainer>
     </Wrapper>
   )
 }
@@ -62,3 +65,5 @@ const SavePlaces=tw.div`
 flex items-center bg-white px-4 py-2`
 const StarIcon=tw.img`
 bg-gray-400 w-10 h-10 p-2 rounded-full mr-2 `
+const ConfirmButtonContainer=tw.div`
+bg-black text-white text-center`
