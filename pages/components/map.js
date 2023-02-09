@@ -14,6 +14,12 @@ const Map = () => {
           center: [-99.29011,39.39172],
           zoom: 3,
         });
+      
+// Create a default Marker and add it to the map.
+const marker1 = new mapboxgl.Marker()
+.setLngLat([12.554729, 55.70651])
+.addTo(map);
+
       });
   return (
     <Wrapper id='map'>
