@@ -1,6 +1,6 @@
 import React from 'react'
 import tw from "tailwind-styled-components"
-import Map from "./components/Map"
+import Map from "./components/map"
 const confirm = () => {
   return (
     <Wrapper>
