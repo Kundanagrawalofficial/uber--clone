@@ -2,10 +2,12 @@ import React from 'react'
 
 const confirm = () => {
   return (
-    <div>
-      
-    </div>
+    <Wrapper>
+
+    </Wrapper>
   )
 }
 
 export default confirm
+const Wrapper=tw.div`
+`
