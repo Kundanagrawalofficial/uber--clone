@@ -8,6 +8,7 @@
 .map{
   background-color: red;
   flex: 1;
+  height: 1vh;
 }
 .start{
 background-color: green;
