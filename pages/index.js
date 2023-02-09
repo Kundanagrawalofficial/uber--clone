@@ -24,11 +24,11 @@ export default function Home() {
 
         </ActionButton>
           <ActionButton>
-          <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/>
+          <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png"/>
            Wheels
         </ActionButton>
         <ActionButton>
-        <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/>
+        <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png"/>
            Reserve
         </ActionButton>
         </ActionButtons>
