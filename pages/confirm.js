@@ -6,7 +6,8 @@ const confirm = () => {
     <Wrapper>
       <Map/>
       <RideContainer>
-
+         Ride Selector
+         Confirm Button
       </RideContainer>
     </Wrapper>
   )
@@ -14,7 +15,7 @@ const confirm = () => {
 
 export default confirm
 const Wrapper=tw.div`
-flex h-screen
+flex h-screen flex-col
 `
 const RideContainer=tw.div`
 flex-1`
