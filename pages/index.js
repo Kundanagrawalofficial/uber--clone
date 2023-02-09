@@ -19,6 +19,7 @@ export default function Home() {
           </Profile>
         </Header>
         <ActionButtons>
+
           <Link href="/search">
           <ActionButton>
           <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/> 
@@ -67,7 +68,7 @@ const ActionButtons=tw.div`
 flex
 `
 const ActionButton=tw.div`
-flex bg-gray-200 flex-1 m-1 h-32 items-center flex-col justify-center rounded-lg hover:scale-105 transition text-xl
+flex bg-gray-200 flex-1 m-1 h-34 items-center flex-col justify-center rounded-lg hover:scale-105 transition text-xl
 
 `
 const ActionButtonImage=tw.img`
